@@ -1,6 +1,10 @@
 # User Weather App
 
-An Angular application that displays a list of users along with current weather information based on their location.
+An Angular application that displays a list of users along with current weather information based on their location using https://randomuser.me/api/ and https://open-meteo.com/ APIs.
+
+## Live Demo
+
+Check out the live version here: https://ruslansuzanskyi.github.io/user-weather-app/
 
 ## How to run
 
