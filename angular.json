@@ -80,9 +80,6 @@
               "src/styles.css"
             ]
           }
-        },
-        "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
