@@ -14,7 +14,7 @@
           "builder": "@angular/build:application",
           "options": {
             "outputPath": "dist/user-weather-app",
-            "index": "src/index.ts",
+            "index": "src/index.html",
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
             "assets": [
@@ -80,6 +80,9 @@
               "src/styles.css"
             ]
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
